@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+p{
+    text-indent: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    align-items: center;
+    align-content: center;
+}
+
+#primary-nav{
+    width: 100vw;
+    padding-block: 5px;
+    padding-inline: 5px;
+    background-color: rgb(30, 20, 56);
+    position: fixed;
+
+}
+
+#cont-pad{
+    background-color: rgb(87, 66, 140);
+    padding-inline: 80px;
+}
+
+.content{
+    padding-inline: 80px;
+    background-color: aliceblue;
+}
+
+input[type='button'] {
+    padding: 15px;
+    background-color: rgb(30, 20, 56);
+    color: aliceblue;
+}
+
+input[type='button']:hover {
+    padding: 15px;
+    background-color: rgb(100, 88, 128);
+}
+
+#Banner{
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.Card{
+    border: black 3px dashed;
+    margin-inline: 50px;
+    padding: 20px;
+    overflow: auto;
+    max-width: 845px;
+    min-width: 230px;
+}
